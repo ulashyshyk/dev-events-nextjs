@@ -4,10 +4,10 @@ import Link from "next/link"
 interface Props{
     title: string;
     image: string;
-    slug:string;
-    location:string;
-    date:string;
-    time:string;
+    slug: string;
+    location: string;
+    date: string;
+    time: string;
 }
 
 const EventCard = ({title,image,slug,location,date,time}:Props) => {
